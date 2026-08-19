@@ -1,6 +1,6 @@
 # 💼 Portfólio de Raphael Sillva
 
-Portfólio profissional desenvolvido para apresentar meus projetos, habilidades e evolução como **Desenvolvedor Full Stack**.
+Portfólio profissional **single page**, desenvolvido para apresentar meus projetos, habilidades e evolução como Desenvolvedor Full Stack.
 
 🌐 **[Acessar portfólio online](https://rafael192612.github.io/portfolio-2026/)**
 
@@ -12,7 +12,20 @@ Portfólio profissional desenvolvido para apresentar meus projetos, habilidades 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 
-O projeto foi desenvolvido com **HTML semântico, CSS moderno e JavaScript modular**, sem utilização de frameworks, e está publicado através do GitHub Pages.
+Desenvolvido com **HTML semântico, CSS moderno e JavaScript modular**, sem utilização de frameworks.
+
+---
+
+## ✨ Principais recursos
+
+* 📱 Layout responsivo
+* 🌙 Tema claro e escuro
+* ⚡ JavaScript modular
+* ♿ Recursos de acessibilidade
+* 🎨 Identidade visual própria
+* 📬 Formulário de contato
+* 🔎 Estrutura preparada para SEO
+* 🌐 Publicação através do GitHub Pages
 
 ---
 
@@ -29,57 +42,62 @@ Uma opção simples no **Visual Studio Code** é utilizar a extensão **Live Ser
 * `index.html` — conteúdo, SEO e estrutura semântica.
 * `css/portfolio.css` — temas, componentes, animações e responsividade.
 * `js/main.js` — interações, acessibilidade, tema, formulário e efeitos.
-* `js/projects.js` — dados dos dez projetos conceituais.
-* `data/contatos.json` — fonte central dos contatos profissionais e endpoint do formulário.
-* `assets/` — imagens responsivas, avatar e identidade visual.
-* `privacidade.html` — informações sobre o tratamento dos dados enviados pelo formulário.
+* `js/projects.js` — dados dos projetos conceituais.
+* `data/contatos.json` — configurações relacionadas aos contatos e formulário.
+* `assets/` — imagens, avatar e identidade visual.
+* `privacidade.html` — informações sobre tratamento dos dados enviados pelo formulário.
 * `site.webmanifest` — metadados de instalação e identidade do site.
+* `robots.txt` — instruções para mecanismos de busca.
+* `sitemap.xml` — estrutura das páginas disponíveis para indexação.
 
 ---
 
 ## 📬 Formulário de contato
 
-O formulário envia os dados por AJAX ao FormSubmit e mantém uma alternativa para WhatsApp caso o serviço não responda.
+O formulário utiliza envio assíncrono através do **FormSubmit**.
 
-O endpoint é carregado através de:
+Também existe uma alternativa para contato através do WhatsApp caso o serviço principal não responda.
+
+As configurações necessárias são carregadas através de:
 
 `data/contatos.json`
 
-Enquanto o atributo `action` presente no HTML funciona como alternativa caso o JavaScript esteja desabilitado.
-
-> Antes de utilizar o formulário publicamente, é necessário realizar a ativação inicial do FormSubmit.
+O atributo `action` presente no HTML também funciona como alternativa caso o JavaScript esteja desabilitado.
 
 ---
 
 ## 🌐 Publicação
 
-O projeto está preparado para publicação através do **GitHub Pages**.
+O projeto está publicado através do **GitHub Pages**.
 
-Os caminhos de navegação e assets são relativos e compatíveis com o ambiente do GitHub Pages.
+Os caminhos de navegação e assets foram preparados para funcionar corretamente no ambiente de publicação.
 
 O projeto também possui:
 
 * URLs canônicas;
-* metadados para compartilhamento em redes sociais;
+* metadados para compartilhamento;
 * `robots.txt`;
 * `sitemap.xml`;
-* Web Manifest.
+* Web Manifest;
+* estrutura preparada para mecanismos de busca.
 
 ---
 
 ## 🧪 Projetos conceituais
 
-Alguns cards apresentados no portfólio representam **estudos e projetos conceituais**.
+Alguns projetos apresentados no portfólio são **estudos conceituais**, desenvolvidos para demonstrar ideias de interfaces, sistemas e soluções.
 
-Enquanto não existirem repositórios ou demonstrações públicas correspondentes, o visitante é direcionado para conversar sobre uma solução semelhante.
+Enquanto um projeto não possuir uma demonstração ou repositório público próprio, ele é identificado como conceitual.
 
-Dessa forma, o portfólio evita apresentar projetos fictícios como trabalhos reais.
+Isso mantém uma separação clara entre **projetos demonstrativos** e **trabalhos reais publicados**.
 
 ---
 
-## 🖼️ Imagens
+## 🖼️ Imagens e desempenho
 
-A fotografia principal, o avatar e o retrato possuem versões **WebP responsivas**, preparadas para melhorar o desempenho do site.
+As principais imagens do portfólio possuem versões em **WebP**, buscando reduzir o tamanho dos arquivos e melhorar o carregamento da página.
+
+O projeto também utiliza imagens responsivas para diferentes tamanhos de tela.
 
 ---
 
@@ -91,13 +109,15 @@ A marca principal está localizada em:
 
 A identidade utiliza o monograma **RS**, uma lua crescente e uma paleta própria desenvolvida para o portfólio.
 
-### Tema claro
+### ☀️ Tema claro
 
 `#B1CDF2` · `#97B5DE` · `#5271A1` · `#295187` · `#103778`
 
-O tema escuro utiliza uma identidade baseada em vermelho, laranja, verde e petróleo.
+### 🌙 Tema escuro
 
-As versões SVG da marca também são alternadas automaticamente conforme o tema selecionado.
+O tema escuro utiliza uma combinação de vermelho, laranja, verde e petróleo.
+
+As versões SVG da marca são alternadas automaticamente de acordo com o tema selecionado.
 
 ---
 
@@ -105,9 +125,11 @@ As versões SVG da marca também são alternadas automaticamente conforme o tema
 
 **Raphael Sillva**
 
-Desenvolvedor Full Stack em formação e estudante de Ciência da Computação, com interesse em desenvolvimento de sistemas e Segurança da Informação.
+🎓 Estudante de Ciência da Computação
+💻 Desenvolvedor Full Stack em formação
+🛡️ Interesse em Segurança da Informação
 
-🌐 **[Meu Portfólio](https://rafael192612.github.io/portfolio-2026/)**
+🌐 **[Acessar meu portfólio](https://rafael192612.github.io/portfolio-2026/)**
 
 ---
 
