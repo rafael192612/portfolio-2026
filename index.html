@@ -1,0 +1,960 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Desenvolvimento de sites profissionais, landing pages e sistemas web personalizados para fortalecer sua presença digital e gerar oportunidades."
+    />
+    <meta name="author" content="Raphael Sillva" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="theme-color" content="#014040" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Raphael Sillva — Portfólio" />
+    <meta
+      property="og:title"
+      content="Raphael Sillva | Sites e soluções digitais sob medida"
+    />
+    <meta
+      property="og:description"
+      content="Tecnologia, design e estratégia para fortalecer marcas, facilitar contatos e transformar presença digital em oportunidades."
+    />
+    <meta
+      property="og:url"
+      content="https://rafael192612.github.io/portfolio-2026/"
+    />
+    <meta
+      property="og:image"
+      content="https://rafael192612.github.io/portfolio-2026/assets/images/raphael-professional.png"
+    />
+    <meta property="og:image:alt" content="Retrato de Raphael Sillva" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Raphael Sillva | Desenvolvimento web estratégico"
+    />
+    <meta
+      name="twitter:description"
+      content="Sites profissionais, landing pages e soluções digitais alinhadas aos objetivos da sua empresa."
+    />
+    <meta
+      name="twitter:image"
+      content="https://rafael192612.github.io/portfolio-2026/assets/images/raphael-professional.png"
+    />
+    <title>
+      Raphael Sillva | Desenvolvedor Full Stack — Sites e Soluções Digitais
+    </title>
+    <link
+      rel="canonical"
+      href="https://rafael192612.github.io/portfolio-2026/"
+    />
+    <link
+      rel="icon"
+      id="site-favicon"
+      href="assets/logo/raphael-mark-light.svg"
+      type="image/svg+xml"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/avatar/raphael-avatar-800.webp"
+      imagesrcset="assets/avatar/raphael-avatar-240.webp 240w, assets/avatar/raphael-avatar-480.webp 480w, assets/avatar/raphael-avatar-800.webp 800w"
+      imagesizes="(max-width: 850px) 90vw, 48vw"
+      type="image/webp"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <script>
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem("portfolio-theme") ||
+          (matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light");
+      } catch {}
+      document.documentElement.classList.add("js");
+      window.__portfolioFallback = setTimeout(
+        () => document.documentElement.classList.remove("js"),
+        5000,
+      );
+    </script>
+    <script type="application/ld+json" id="person-schema">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Raphael Sillva",
+        "jobTitle": "Desenvolvedor Full Stack e UI/UX Designer",
+        "email": "mailto:Raphaelsillva2018rg@gmail.com",
+        "sameAs": [
+          "https://github.com/rafael192612",
+          "https://www.linkedin.com/in/rafael-martins-649970314/",
+          "https://www.instagram.com/raphael1082_/"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "RJ",
+          "addressCountry": "BR"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <div
+      class="loader"
+      id="site-loader"
+      role="status"
+      aria-label="Carregando portfólio"
+    >
+      <div class="loader__identity">
+        <img
+          data-brand-mark
+          src="assets/logo/raphael-mark-light.svg"
+          width="58"
+          height="58"
+          alt=""
+        /><span>Raphael Sillva</span><small>Preparando a experiência</small>
+      </div>
+      <div class="loader__progress"><i></i></div>
+    </div>
+
+    <header class="site-header" id="inicio">
+      <nav class="navbar shell" aria-label="Navegação principal">
+        <a class="brand" href="#home" aria-label="Raphael Sillva — início"
+          ><img
+            data-brand-mark
+            src="assets/logo/raphael-mark-light.svg"
+            width="38"
+            height="38"
+            alt=""
+          /><span
+            ><strong data-brand-name>Raphael Sillva</strong
+            ><small>Full Stack &amp; UI/UX</small></span
+          ></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#home">Home</a><a href="#sobre">Sobre</a
+          ><a href="#tecnologias">Tecnologias</a><a href="#projetos">Projetos</a
+          ><a href="#servicos">Serviços</a><a href="#experiencia">Experiência</a
+          ><a href="#contato">Contato</a>
+          <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Ativar tema escuro"
+            title="Alternar tema"
+          >
+            <span aria-hidden="true" class="theme-toggle__moon">☾</span
+            ><span aria-hidden="true" class="theme-toggle__sun">☀</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero__stars" aria-hidden="true"></div>
+        <div class="hero__inner shell">
+          <div class="hero__copy reveal reveal--left">
+            <p class="kicker"><span></span> Olá, eu sou</p>
+            <h1 id="hero-title">Raphael <em>Sillva</em></h1>
+            <p class="hero__role">
+              Desenvolvedor
+              <span id="typing-role" aria-live="polite">Full Stack</span
+              ><i aria-hidden="true"></i>
+            </p>
+            <p class="hero__lead">
+              Desenvolvo sites, landing pages e sistemas web que unem
+              estratégia, experiência e tecnologia para fortalecer marcas e
+              transformar presença digital em oportunidades.
+            </p>
+            <p class="hero__manifesto">
+              Sua presença digital transmite a mesma qualidade que sua empresa
+              entrega?
+            </p>
+            <div class="hero__actions">
+              <a class="button button--primary" href="#projetos"
+                >Conhecer projetos <span>↘</span></a
+              ><a class="button button--secondary" href="#contato"
+                >Falar sobre meu projeto <span>↗</span></a
+              >
+            </div>
+            <div class="hero__availability">
+              <i></i
+              ><span>Disponível para projetos no Brasil e no exterior</span>
+            </div>
+          </div>
+          <div class="hero__visual reveal reveal--right" data-tilt-area>
+            <picture
+              ><source
+                data-profile-source="main"
+                type="image/webp"
+                srcset="
+                  assets/avatar/raphael-avatar-240.webp 240w,
+                  assets/avatar/raphael-avatar-480.webp 480w,
+                  assets/avatar/raphael-avatar-800.webp 800w
+                "
+                sizes="(max-width: 850px) 90vw, 48vw" />
+              <img
+                data-profile-image="main"
+                class="hero__portrait"
+                src="assets/avatar/raphael-avatar.png"
+                width="1024"
+                height="1536"
+                alt="Avatar 3D de Raphael Sillva com roupa escura"
+                fetchpriority="high"
+                decoding="async"
+            /></picture>
+            <div class="hero__badge">
+              <strong>Desde 2022</strong
+              ><span>atuando e desenvolvendo soluções digitais</span>
+            </div>
+            <button
+              class="hero__avatar"
+              type="button"
+              aria-label="Mostrar fotografia real no destaque"
+              aria-pressed="true"
+              title="Alternar entre foto e avatar"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 7h-9.5a5.5 5.5 0 0 0-5.12 3.48" />
+                <path d="m17 4 3 3-3 3" />
+                <path d="M4 17h9.5a5.5 5.5 0 0 0 5.12-3.48" />
+                <path d="m7 20-3-3 3-3" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#sobre"
+          ><span>Explore</span><i aria-hidden="true"></i
+        ></a>
+      </section>
+
+      <section
+        class="section about shell"
+        id="sobre"
+        aria-labelledby="about-title"
+      >
+        <header class="section-heading reveal">
+          <p class="kicker"><span></span> Sobre mim</p>
+          <h2 id="about-title">
+            Curiosidade para explorar.<br /><em>Estratégia para construir.</em>
+          </h2>
+        </header>
+        <div class="about__grid">
+          <figure class="about__photo reveal reveal--left">
+            <picture
+              ><source
+                type="image/webp"
+                srcset="
+                  assets/images/raphael-professional-480.webp 480w,
+                  assets/images/raphael-professional-720.webp 720w,
+                  assets/images/raphael-professional-941.webp 941w
+                "
+                sizes="(max-width: 850px) 90vw, 42vw" />
+              <img
+                src="assets/images/raphael-professional.png"
+                width="941"
+                height="1672"
+                alt="Retrato profissional de Raphael Sillva em estúdio"
+                loading="lazy"
+                decoding="async"
+            /></picture>
+            <figcaption>
+              Autenticidade, evolução e vontade de fazer melhor.
+            </figcaption>
+          </figure>
+          <div class="about__copy reveal reveal--right">
+            <p class="about__intro">
+              Sou desenvolvedor Full Stack e UI/UX Designer. Uno técnica,
+              criatividade e visão de negócio para entender cada desafio antes
+              de construir uma solução.
+            </p>
+            <p>
+              Minha trajetória reúne experiências em mecatrônica, manutenção,
+              indústria, empreendedorismo e tecnologia. Essa combinação ampliou
+              minha visão sobre processos, pessoas e produtos — e hoje orienta a
+              forma como penso interfaces, código e negócios.
+            </p>
+            <p>
+              Gosto de explorar problemas difíceis, estruturar lógicas e
+              questionar caminhos conhecidos. Esse olhar ajuda a criar soluções
+              personalizadas, coerentes com o contexto e alinhadas aos objetivos
+              de cada projeto.
+            </p>
+            <div class="about__principles">
+              <article>
+                <strong>01</strong><span>Problemas revelam oportunidades.</span>
+              </article>
+              <article>
+                <strong>02</strong><span>Estratégia orienta decisões.</span>
+              </article>
+              <article>
+                <strong>03</strong><span>Tecnologia deve gerar valor.</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="manifesto"
+        id="manifesto"
+        aria-labelledby="manifesto-title"
+      >
+        <div class="manifesto__sticky">
+          <div class="manifesto__visual" aria-hidden="true">
+            <div class="manifesto__orb"></div>
+            <div class="manifesto__wolf-mark">
+              <img
+                data-brand-mark
+                src="assets/logo/raphael-mark-light.svg"
+                width="180"
+                height="180"
+                alt=""
+              />
+            </div>
+            <div class="manifesto__path"></div>
+          </div>
+          <div class="manifesto__content shell">
+            <p class="kicker"><span></span> Manifesto</p>
+            <h2 id="manifesto-title">
+              Conhecimento transforma<br /><em>limites em possibilidades.</em>
+            </h2>
+            <div class="manifesto__scenes">
+              <p class="is-active" data-scene="0">
+                Questionar o que parece definitivo.
+              </p>
+              <p data-scene="1">Explorar além da primeira resposta.</p>
+              <p data-scene="2">Conectar técnica, design e contexto.</p>
+              <p data-scene="3">Construir soluções que geram movimento.</p>
+            </div>
+            <div class="manifesto__progress"><i></i></div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section technologies shell"
+        id="tecnologias"
+        aria-labelledby="tech-title"
+      >
+        <header class="section-heading reveal">
+          <p class="kicker"><span></span> Tecnologias</p>
+          <h2 id="tech-title">
+            Ferramentas escolhidas pelo<br /><em>contexto do projeto.</em>
+          </h2>
+          <p>
+            Conhecimento aplicado para construir experiências responsivas,
+            acessíveis, seguras e preparadas para evoluir — sem porcentagens
+            artificiais.
+          </p>
+        </header>
+        <div class="tech-grid">
+          <article class="tech-card reveal" data-tilt>
+            <span>01</span>
+            <h3>Front-end</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>DOM</li>
+              <li>APIs</li>
+              <li>Responsividade</li>
+            </ul>
+          </article>
+          <article class="tech-card reveal" data-tilt>
+            <span>02</span>
+            <h3>Back-end &amp; Dados</h3>
+            <ul>
+              <li>Python</li>
+              <li>JSON</li>
+              <li>Manipulação de dados</li>
+              <li>Automação de processos</li>
+            </ul>
+          </article>
+          <article class="tech-card reveal" data-tilt>
+            <span>03</span>
+            <h3>Desenvolvimento</h3>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Depuração</li>
+              <li>Integrações</li>
+              <li>Segurança aplicada</li>
+            </ul>
+          </article>
+          <article class="tech-card reveal" data-tilt>
+            <span>04</span>
+            <h3>UI/UX</h3>
+            <ul>
+              <li>Interfaces</li>
+              <li>Prototipação</li>
+              <li>Arquitetura visual</li>
+              <li>Acessibilidade</li>
+              <li>Experiência do usuário</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="section projects"
+        id="projetos"
+        aria-labelledby="projects-title"
+      >
+        <div class="shell">
+          <header class="section-heading section-heading--split reveal">
+            <div>
+              <p class="kicker"><span></span> Projetos conceituais</p>
+              <h2 id="projects-title">
+                Problemas transformados em<br /><em>experiências digitais.</em>
+              </h2>
+            </div>
+            <p>
+              Estudos que demonstram como estratégia, interface e
+              desenvolvimento podem responder a desafios de presença digital,
+              gestão e dados. Nenhum card representa um cliente ou entrega
+              comercial concluída.
+            </p>
+          </header>
+          <div
+            class="project-filters"
+            role="group"
+            aria-label="Filtrar projetos"
+          >
+            <button
+              class="is-active"
+              type="button"
+              data-filter="all"
+              aria-pressed="true"
+            >
+              Todos</button
+            ><button type="button" data-filter="web" aria-pressed="false">
+              Web</button
+            ><button type="button" data-filter="systems" aria-pressed="false">
+              Sistemas</button
+            ><button type="button" data-filter="data" aria-pressed="false">
+              Dados</button
+            ><button
+              type="button"
+              data-filter="experimental"
+              aria-pressed="false"
+            >
+              Experimental
+            </button>
+          </div>
+          <div class="projects-grid" id="projects-grid"></div>
+        </div>
+      </section>
+
+      <section
+        class="section services shell"
+        id="servicos"
+        aria-labelledby="services-title"
+      >
+        <header class="section-heading reveal">
+          <p class="kicker"><span></span> Serviços</p>
+          <h2 id="services-title">
+            Soluções digitais alinhadas aos<br /><em
+              >objetivos da sua empresa.</em
+            >
+          </h2>
+          <p>
+            Seu site apenas apresenta sua empresa ou conduz o visitante até uma
+            ação?
+          </p>
+        </header>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <span class="service-card__number">01</span>
+            <h3>Landing Pages</h3>
+            <p>
+              Páginas focadas em apresentar sua oferta com clareza, fortalecer a
+              confiança e aumentar o potencial de conversão.
+            </p>
+            <a class="service-card__link" href="#contato"
+              >Transformar cliques em oportunidades <b>↗</b></a
+            >
+          </article>
+          <article class="service-card reveal">
+            <span class="service-card__number">02</span>
+            <h3>Sites Institucionais</h3>
+            <p>
+              Sites profissionais que fortalecem a credibilidade da marca e
+              facilitam o caminho entre o visitante e o contato.
+            </p>
+            <a class="service-card__link" href="#contato"
+              >Fortalecer minha presença digital <b>↗</b></a
+            >
+          </article>
+          <article class="service-card reveal">
+            <span class="service-card__number">03</span>
+            <h3>Sistemas Web</h3>
+            <p>
+              Soluções sob medida para organizar processos, reduzir tarefas
+              repetitivas e apoiar o crescimento da operação.
+            </p>
+            <a class="service-card__link" href="#contato"
+              >Modernizar meus processos <b>↗</b></a
+            >
+          </article>
+          <article class="service-card reveal">
+            <span class="service-card__number">04</span>
+            <h3>Dashboards</h3>
+            <p>
+              Informações transformadas em uma visão clara do negócio para
+              acompanhar indicadores e apoiar decisões.
+            </p>
+            <a class="service-card__link" href="#contato"
+              >Dar visibilidade aos meus dados <b>↗</b></a
+            >
+          </article>
+          <article class="service-card reveal">
+            <span class="service-card__number">05</span>
+            <h3>UI/UX</h3>
+            <p>
+              Interfaces intuitivas que valorizam a primeira impressão, reduzem
+              barreiras e conduzem o usuário com clareza.
+            </p>
+            <a class="service-card__link" href="#contato"
+              >Melhorar minha experiência digital <b>↗</b></a
+            >
+          </article>
+          <article class="service-card reveal">
+            <span class="service-card__number">06</span>
+            <h3>Automação &amp; Dados</h3>
+            <p>
+              Organização e automação de rotinas para reduzir esforço manual,
+              melhorar consistência e liberar tempo para o que importa.
+            </p>
+            <a class="service-card__link" href="#contato"
+              >Analisar uma automação <b>↗</b></a
+            >
+          </article>
+          <article class="service-card reveal service-card--cta">
+            <span class="service-card__number">07</span>
+            <h3>Desenvolvimento sob medida</h3>
+            <p>
+              Uma solução personalizada, construída a partir do seu desafio,
+              contexto e objetivo de negócio.
+            </p>
+            <a class="service-card__link" href="#contato"
+              >Falar sobre meu projeto <b>↗</b></a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="section journey"
+        id="experiencia"
+        aria-labelledby="journey-title"
+      >
+        <div class="shell journey__layout">
+          <header class="section-heading reveal">
+            <p class="kicker"><span></span> Minha trajetória</p>
+            <h2 id="journey-title">
+              Experiências que formaram<br /><em>minha visão técnica.</em>
+            </h2>
+            <p>
+              Mecatrônica, manutenção, indústria, dados e empreendedorismo
+              contribuíram para uma forma multidisciplinar de resolver
+              problemas.
+            </p>
+          </header>
+          <ol class="timeline">
+            <li class="reveal">
+              <time>2022</time>
+              <div>
+                <h3>Programação como nova direção</h3>
+                <p>
+                  Início aprofundado nos estudos de desenvolvimento e construção
+                  de interfaces web.
+                </p>
+              </div>
+            </li>
+            <li class="reveal">
+              <time>2023</time>
+              <div>
+                <h3>Dados e segurança</h3>
+                <p>
+                  Exploração de Python, manipulação de dados e fundamentos de
+                  avaliação de vulnerabilidades em ambientes educacionais e
+                  autorizados.
+                </p>
+              </div>
+            </li>
+            <li class="reveal">
+              <time>Primeiro freelancer</time>
+              <div>
+                <h3>Apoio a e-commerce</h3>
+                <p>
+                  Filtragem e organização de dados relacionados a produtos e
+                  estoque.
+                </p>
+              </div>
+            </li>
+            <li class="reveal">
+              <time>Experiências profissionais</time>
+              <div>
+                <h3>Visão multidisciplinar</h3>
+                <p>
+                  Contato com mecatrônica, manutenção de telefones, operação de
+                  máquinas, indústria e empreendedorismo.
+                </p>
+              </div>
+            </li>
+            <li class="reveal">
+              <time>Atualidade</time>
+              <div>
+                <h3>Desenvolvimento e liderança</h3>
+                <p>
+                  Prestação de serviços para uma gráfica, construção de projetos
+                  e organização de uma pequena equipe ligada a tecnologia e
+                  negócios.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <div class="shell credentials" aria-labelledby="credentials-title">
+          <div class="credentials__heading reveal">
+            <p class="kicker"><span></span> Formação contínua</p>
+            <h2 id="credentials-title">
+              Base técnica e aprendizado<br /><em>aplicado à prática.</em>
+            </h2>
+            <p>
+              Conhecimentos construídos por cursos, formação técnica e
+              exploração responsável de diferentes áreas.
+            </p>
+          </div>
+          <div class="credentials__grid">
+            <article class="credential-card reveal">
+              <span>01</span>
+              <h3>Técnico em Mecatrônica</h3>
+              <p>
+                Formação que fortaleceu raciocínio técnico, visão de processos e
+                resolução estruturada de problemas.
+              </p>
+            </article>
+            <article class="credential-card reveal">
+              <span>02</span>
+              <h3>Front-end</h3>
+              <p>
+                Estudos em HTML, CSS e JavaScript, incluindo formação e
+                conteúdos da Serliv quando correspondentes.
+              </p>
+            </article>
+            <article class="credential-card reveal">
+              <span>03</span>
+              <h3>Python &amp; Dados</h3>
+              <p>
+                Cursos e prática voltados à manipulação, filtragem, organização
+                de dados e automação de tarefas.
+              </p>
+            </article>
+            <article class="credential-card reveal">
+              <span>04</span>
+              <h3>Segurança</h3>
+              <p>
+                Estudos de testes e exploração de vulnerabilidades
+                exclusivamente em ambientes educacionais e autorizados.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section contact"
+        id="contato"
+        aria-labelledby="contact-title"
+      >
+        <div class="shell contact__grid">
+          <div class="contact__copy reveal reveal--left">
+            <p class="kicker"><span></span> Conversa estratégica</p>
+            <h2 id="contact-title">
+              Vamos descobrir o potencial<br /><em>do seu projeto?</em>
+            </h2>
+            <p>
+              Uma conversa inicial para entender sua empresa, seus objetivos e o
+              que pode ser melhorado na sua presença digital.
+            </p>
+            <p class="contact__instruction">
+              <strong>Sua próxima oportunidade pode começar aqui.</strong
+              ><br />Conte um pouco sobre sua ideia, empresa ou desafio. Vou
+              analisar suas necessidades e entrar em contato para conversarmos
+              sobre melhorias e a solução digital mais adequada ao seu objetivo.
+            </p>
+          </div>
+          <form
+            class="contact-form reveal reveal--right"
+            id="contact-form"
+            action="https://formsubmit.co/Raphaelsillva2018rg@gmail.com"
+            method="POST"
+            data-endpoint="https://formsubmit.co/ajax/Raphaelsillva2018rg@gmail.com"
+            novalidate
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="Novo contato pelo portfólio de Raphael Sillva"
+            />
+            <input type="hidden" name="_template" value="table" />
+            <div class="form-honeypot" aria-hidden="true">
+              <label for="contact-website">Não preencha este campo</label
+              ><input
+                id="contact-website"
+                name="_honey"
+                type="text"
+                tabindex="-1"
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-row">
+              <label for="contact-name">Nome *</label
+              ><input
+                id="contact-name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                required
+              /><small class="field-error"></small>
+            </div>
+            <div class="form-row">
+              <label for="contact-email">E-mail *</label
+              ><input
+                id="contact-email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+              /><small class="field-error"></small>
+            </div>
+            <div class="form-pair">
+              <div class="form-row">
+                <label for="contact-company">Empresa</label
+                ><input
+                  id="contact-company"
+                  name="company"
+                  type="text"
+                  autocomplete="organization"
+                />
+              </div>
+              <div class="form-row">
+                <label for="contact-type">Tipo de projeto *</label
+                ><select id="contact-type" name="projectType" required>
+                  <option value="">Selecione</option>
+                  <option>Landing Page</option>
+                  <option>Site Institucional</option>
+                  <option>Sistema Web</option>
+                  <option>Dashboard</option>
+                  <option>UI/UX</option>
+                  <option>Automação e Dados</option>
+                  <option>Outro</option></select
+                ><small class="field-error"></small>
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="contact-budget"
+                >Faixa de orçamento <span>(opcional)</span></label
+              ><select id="contact-budget" name="budget">
+                <option value="">Prefiro conversar primeiro</option>
+                <option>Até R$ 2.000</option>
+                <option>R$ 2.000 — R$ 5.000</option>
+                <option>R$ 5.000 — R$ 10.000</option>
+                <option>Acima de R$ 10.000</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="contact-message">Mensagem *</label
+              ><textarea
+                id="contact-message"
+                name="message"
+                rows="5"
+                required
+              ></textarea
+              ><small class="field-error"></small>
+            </div>
+            <button class="button button--primary" type="submit">
+              <span>Quero conversar</span><i aria-hidden="true">↗</i>
+            </button>
+            <p
+              class="form-status"
+              id="form-status"
+              role="status"
+              aria-live="polite"
+            ></p>
+            <p class="form-privacy">
+              Ao enviar, você concorda com o tratamento dos dados para resposta
+              ao contato.
+              <a href="privacidade.html">Leia a política de privacidade</a>.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="shell footer__grid">
+        <div class="footer__brand">
+          <a class="brand" href="#home"
+            ><img
+              data-brand-mark
+              src="assets/logo/raphael-mark-light.svg"
+              width="42"
+              height="42"
+              alt=""
+            /><span
+              ><strong>Raphael Sillva</strong
+              ><small>Full Stack &amp; UI/UX Designer</small></span
+            ></a
+          >
+          <p>
+            Tecnologia, design e estratégia para transformar presença digital em
+            oportunidades.
+          </p>
+        </div>
+        <div>
+          <h2>Navegação</h2>
+          <a href="#sobre">Sobre</a><a href="#tecnologias">Tecnologias</a
+          ><a href="#projetos">Projetos</a><a href="#servicos">Serviços</a
+          ><a href="#experiencia">Experiência</a
+          ><a href="privacidade.html">Privacidade</a>
+        </div>
+        <div>
+          <h2>Contato</h2>
+          <a href="#contato">Quero conversar pelo formulário ↗</a
+          ><span data-contact-text="location">RJ, Brasil</span
+          ><span data-contact-text="availability"
+            >Atendimento internacional</span
+          >
+        </div>
+        <div>
+          <h2>Redes sociais</h2>
+          <div class="footer__socials">
+            <a
+              data-contact-link="github"
+              href="https://github.com/rafael192612"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub de Raphael Sillva"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.87c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.55 9.55 0 0 1 12 6.82c.85 0 1.71.12 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.86V21c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"
+                /></svg
+              ><span>GitHub</span></a
+            ><a
+              data-contact-link="linkedin"
+              href="https://www.linkedin.com/in/rafael-martins-649970314/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn de Raphael Sillva"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M6.5 8.25H3.25V21H6.5V8.25ZM4.88 3A1.88 1.88 0 1 0 4.88 6.75 1.88 1.88 0 0 0 4.88 3ZM21 13.68c0-3.84-2.05-5.63-4.79-5.63-2.21 0-3.2 1.22-3.75 2.08V8.25H9.21V21h3.25v-6.31c0-1.66.31-3.27 2.38-3.27 2.04 0 2.07 1.91 2.07 3.38V21H21v-7.32Z"
+                /></svg
+              ><span>LinkedIn</span></a
+            ><a
+              data-contact-link="instagram"
+              href="https://www.instagram.com/raphael1082_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram de Raphael Sillva"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4.25" />
+                <circle cx="17.4" cy="6.7" r="1" class="is-filled" /></svg
+              ><span>Instagram</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="shell footer__bottom">
+        <p>
+          © <span id="current-year"></span> Raphael Sillva. Todos os direitos
+          reservados.
+        </p>
+        <p>Desenvolvimento com estratégia, clareza e propósito.</p>
+      </div>
+    </footer>
+
+    <a
+      class="whatsapp-float"
+      data-contact-link="whatsapp"
+      href="https://wa.me/5521976918326?text=Ol%C3%A1%20Raphael!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Conversar com Raphael pelo WhatsApp"
+      ><span class="whatsapp-tip" role="status"
+        >Sua ideia tem potencial. Vamos conversar?</span
+      ><svg viewBox="0 0 32 32" aria-hidden="true">
+        <path
+          d="M16.04 3A12.82 12.82 0 0 0 5.17 22.62L3 29l6.6-2.1A12.85 12.85 0 1 0 16.04 3Zm0 23.52c-2.1 0-4.13-.62-5.87-1.78l-.42-.27-3.81 1.21 1.25-3.66-.3-.46a10.67 10.67 0 1 1 9.15 4.96Zm5.85-7.98c-.32-.16-1.9-.94-2.2-1.05-.29-.11-.5-.16-.71.16-.21.32-.82 1.05-1 1.26-.19.21-.37.24-.69.08-.32-.16-1.35-.5-2.57-1.58a9.58 9.58 0 0 1-1.78-2.22c-.19-.32-.02-.49.14-.65.14-.14.32-.37.48-.56.16-.18.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.71-1.72-.98-2.35-.26-.62-.52-.54-.71-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.08-1.11 2.64s1.14 3.07 1.29 3.28c.16.21 2.24 3.42 5.42 4.79.76.33 1.35.52 1.81.67.76.24 1.45.21 2 .13.61-.09 1.9-.78 2.17-1.53.27-.75.27-1.4.19-1.53-.08-.14-.29-.22-.61-.38Z"
+        /></svg
+    ></a>
+    <button class="back-to-top" type="button" aria-label="Voltar ao topo">
+      ↑
+    </button>
+    <div class="context-cursor" aria-hidden="true"><span>Ver</span></div>
+
+    <dialog
+      class="project-modal"
+      id="project-modal"
+      aria-labelledby="modal-title"
+    >
+      <button
+        class="project-modal__close"
+        type="button"
+        aria-label="Fechar detalhes"
+      >
+        ×
+      </button>
+      <div class="project-modal__visual" id="modal-visual"></div>
+      <div class="project-modal__body">
+        <div class="project-modal__meta">
+          <span id="modal-category"></span><span id="modal-status"></span>
+        </div>
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+        <div class="project-modal__columns">
+          <div>
+            <h3>Problema</h3>
+            <p id="modal-problem"></p>
+          </div>
+          <div>
+            <h3>Solução</h3>
+            <p id="modal-solution"></p>
+          </div>
+          <div>
+            <h3>Desafios</h3>
+            <p id="modal-challenges"></p>
+          </div>
+        </div>
+        <div class="project-modal__tech" id="modal-tech"></div>
+        <div class="project-modal__links" id="modal-links"></div>
+      </div>
+    </dialog>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
