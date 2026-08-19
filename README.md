@@ -4,6 +4,10 @@ Portfólio profissional **single page**, desenvolvido para apresentar meus proje
 
 🌐 **[Acessar portfólio online](https://rafael192612.github.io/portfolio-2026/)**
 
+## 🖥️ Preview
+
+![Preview do Portfólio de Raphael Sillva](https://raw.githubusercontent.com/rafael192612/portfolio-2026/main/assets/preview-portfolio.png)
+
 ---
 
 ## 🛠️ Tecnologias
