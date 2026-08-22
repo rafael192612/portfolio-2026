@@ -286,27 +286,24 @@ function initProfileSwap() {
   const profiles = {
     photo: {
       src: "assets/images/raphael-cutout-2026.png",
-      srcset:
-        "assets/images/raphael-cutout-2026-480.webp 480w, assets/images/raphael-cutout-2026-720.webp 720w, assets/images/raphael-cutout-2026-941.webp 941w",
-      width: "1122",
-      height: "1402",
+      srcset: "assets/images/raphael-cutout-2026.png",
+      width: "1024",
+      height: "1536",
       alt: "Retrato profissional de Raphael Sillva sem fundo",
     },
     avatar: {
       dark: {
         src: "assets/avatar/raphael-avatar.png",
-        srcset:
-          "assets/avatar/raphael-avatar-240.webp 240w, assets/avatar/raphael-avatar-480.webp 480w, assets/avatar/raphael-avatar-800.webp 800w",
+        srcset: "assets/avatar/raphael-avatar.png",
         width: "1024",
         height: "1536",
         alt: "Avatar 3D de Raphael Sillva com roupa escura",
       },
       light: {
         src: "assets/avatar/raphael-avatar-light.png",
-        srcset:
-          "assets/avatar/raphael-avatar-light-240.webp 240w, assets/avatar/raphael-avatar-light-480.webp 480w, assets/avatar/raphael-avatar-light-800.webp 800w",
-        width: "1014",
-        height: "1550",
+        srcset: "assets/avatar/raphael-avatar-light.png",
+        width: "1024",
+        height: "1536",
         alt: "Avatar 3D de Raphael Sillva com roupa azul",
       },
     },

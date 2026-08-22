@@ -541,7 +541,7 @@ button {
   inset: -5% -10% -17%;
   width: 120%;
   height: 122%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center 18%;
   filter: drop-shadow(0 25px 35px rgba(0, 0, 0, 0.45));
   -webkit-mask-image: linear-gradient(
