@@ -16,7 +16,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "UI/UX"],
     gradient: "linear-gradient(135deg,#014040,#03A688 58%,#C2F2CE)",
     github: "",
-    demo: "",
+    demo: "projeto/index.html",
   },
   {
     id: "crm-clientes",
