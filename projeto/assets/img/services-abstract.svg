@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" fill="none">
+  <defs>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#050505"/><stop offset="1" stop-color="#393939"/>
+    </linearGradient>
+    <pattern id="marble" width="330" height="400" patternUnits="userSpaceOnUse">
+      <path d="M-50 0C210 120 10 240 330 400M-35 0C240 120 25 255 345 400M-20 0C255 110 40 260 360 400M0 0C270 100 60 275 380 400M25 0C285 90 70 285 400 400M50 0C310 85 95 300 425 400" stroke="#b7b7b7" stroke-width="2"/>
+      <path d="M-25 80C200 185 60 220 240 340M-15 95C200 190 70 225 255 345M0 110C210 195 85 230 270 350" stroke="#d4d4d4" stroke-width="5"/>
+    </pattern>
+  </defs>
+  <path fill="#f7f7f7" d="M0 0H1000V400H0Z"/>
+  <path fill="url(#marble)" d="M0 0H1000V400H0Z"/>
+  <g stroke="url(#ink)" stroke-linecap="round">
+    <path d="M410 440 650 -40M590 440 830 -40M780 440 1020 -40" stroke-width="48"/>
+    <path d="M370 340 455 170M690 230 810 -10M885 410 965 250" stroke-width="15"/>
+  </g>
+  <g stroke="#f7f7f7" stroke-linecap="round" stroke-width="16">
+    <path d="M580 58 608 2M668 335 697 277M829 363 853 315"/>
+  </g>
+  <circle cx="758" cy="208" r="143" fill="url(#ink)" stroke="#050505" stroke-width="4"/>
+  <circle cx="530" cy="65" r="32" fill="url(#ink)"/>
+  <circle cx="945" cy="340" r="28" fill="url(#ink)"/>
+</svg>
