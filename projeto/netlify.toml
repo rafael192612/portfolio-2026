@@ -1,0 +1,16 @@
+[build]
+  command = "python3 scripts/prepare_deploy.py"
+  publish = "dist"
+
+[build.environment]
+  PYTHON_VERSION = "3.13"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), xr-spatial-tracking=()"
+    X-Frame-Options = "DENY"
+    Cache-Control = "public, max-age=0, must-revalidate"
+    Content-Security-Policy-Report-Only = "default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' https://ajax.googleapis.com; style-src 'self' 'unsafe-inline'; img-src 'self' https: data: blob:; font-src 'self'; connect-src 'self' https://ajax.googleapis.com https://formspree.io; worker-src 'self' blob:; media-src 'self' blob:; form-action 'none'; frame-ancestors 'none'"
