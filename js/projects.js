@@ -19,6 +19,25 @@ export const projects = [
     demo: "projects/elite-fitness/index.html",
   },
   {
+    id: "advocacia",
+    title: "Oliveira & Associados",
+    category: "web",
+    categoryLabel: "Landing Page",
+    status: "Projeto demonstrativo",
+    description:
+      "Landing page responsiva para escritório de advocacia, com áreas de atuação, diferenciais, depoimentos ilustrativos, FAQ e contato.",
+    problem:
+      "Apresentar serviços jurídicos extensos com clareza e conduzir o visitante aos canais de contato em qualquer dispositivo.",
+    solution:
+      "Uma experiência sóbria e objetiva, com hierarquia visual, navegação por seções, conteúdo acessível e chamadas para ação responsivas.",
+    challenges:
+      "Organizar grande volume de conteúdo sem perder legibilidade, padronizar ícones e eliminar cortes ou rolagem horizontal em telas pequenas.",
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap Icons", "Responsive Design"],
+    gradient: "linear-gradient(135deg,#0d1b2a,#1b263b 58%,#d4af37)",
+    github: "",
+    demo: "https://advocacia-flame.vercel.app/",
+  },
+  {
     id: "landing-premium",
     title: "Landing Page Premium",
     category: "web",
