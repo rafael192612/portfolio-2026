@@ -1,5 +1,24 @@
 export const projects = [
   {
+    id: "elite-fitness",
+    title: "Elite Fitness",
+    category: "web",
+    categoryLabel: "Landing Page",
+    status: "Projeto demonstrativo",
+    description:
+      "Landing page responsiva para academia, focada em modalidades, estrutura, prova social e agendamento de aula experimental.",
+    problem:
+      "Academias precisam apresentar sua estrutura e diferenciais com clareza, em uma experiência rápida para visitantes de qualquer dispositivo.",
+    solution:
+      "Uma página de alta conversão com hierarquia visual esportiva, mapa integrado, contato direto e navegação acessível.",
+    challenges:
+      "Equilibrar energia visual, responsividade, carregamento de imagens, acessibilidade e chamadas para ação sem excesso de informação.",
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap Icons", "Responsive Design"],
+    gradient: "linear-gradient(135deg,#190303,#ff2d2d 54%,#ffd60a)",
+    github: "",
+    demo: "projects/elite-fitness/index.html",
+  },
+  {
     id: "landing-premium",
     title: "Landing Page Premium",
     category: "web",
