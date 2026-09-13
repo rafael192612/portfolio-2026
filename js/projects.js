@@ -57,6 +57,25 @@ export const projects = [
     demo: "https://clinica-estetica-seven-ashen.vercel.app/",
   },
   {
+    id: "clinica-medica",
+    title: "Dra. Camila Nutri",
+    category: "web",
+    categoryLabel: "Landing Page",
+    status: "Projeto demonstrativo",
+    description:
+      "Landing page responsiva para atendimento nutricional, com serviços, resultados ilustrativos, benefícios, FAQ e canais de contato.",
+    problem:
+      "Organizar serviços e informações de saúde com clareza, evitando sobrecarga visual e ações fictícias em diferentes dispositivos.",
+    solution:
+      "Uma experiência acolhedora, responsiva e acessível, com conteúdo demonstrativo identificado e navegação objetiva.",
+    challenges:
+      "Padronizar ícones, tornar menu e FAQ acessíveis e preservar o conteúdo sem apresentar alegações clínicas fictícias como reais.",
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap Icons", "Responsive Design"],
+    gradient: "linear-gradient(135deg,#163b2b,#2d6a4f 56%,#b7e4c7)",
+    github: "",
+    demo: "https://clinica-medica-lyart.vercel.app/",
+  },
+  {
     id: "landing-premium",
     title: "Landing Page Premium",
     category: "web",
