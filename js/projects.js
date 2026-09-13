@@ -38,6 +38,25 @@ export const projects = [
     demo: "https://advocacia-flame.vercel.app/",
   },
   {
+    id: "clinica-estetica",
+    title: "Belezza Estética",
+    category: "web",
+    categoryLabel: "Landing Page",
+    status: "Projeto demonstrativo",
+    description:
+      "Landing page responsiva para clínica de estética, com tratamentos, resultados ilustrativos, benefícios, FAQ e canais de contato.",
+    problem:
+      "Apresentar muitos tratamentos e diferenciais com clareza, sem perder legibilidade ou confiança em telas menores.",
+    solution:
+      "Uma experiência acolhedora e objetiva, com conteúdo demonstrativo identificado, hierarquia visual, navegação acessível e chamadas responsivas.",
+    challenges:
+      "Padronizar ícones, tornar menu e FAQ acessíveis e eliminar cortes e rolagem horizontal preservando a identidade visual.",
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap Icons", "Responsive Design"],
+    gradient: "linear-gradient(135deg,#4a164b,#9d4edd 56%,#f7a8c4)",
+    github: "",
+    demo: "https://clinica-estetica-seven-ashen.vercel.app/",
+  },
+  {
     id: "landing-premium",
     title: "Landing Page Premium",
     category: "web",
