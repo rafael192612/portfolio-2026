@@ -76,6 +76,25 @@ export const projects = [
     demo: "https://clinica-medica-lyart.vercel.app/",
   },
   {
+    id: "coach-consultor",
+    title: "Marcos Ribeiro",
+    category: "web",
+    categoryLabel: "Landing Page",
+    status: "Projeto demonstrativo",
+    description:
+      "Landing page responsiva para coach e consultor, com serviços, galeria, benefícios, depoimentos ilustrativos, FAQ e contato.",
+    problem:
+      "Apresentar muitos serviços e diferenciais profissionais sem perder clareza, confiança ou facilidade de navegação em telas menores.",
+    solution:
+      "Uma experiência profissional e responsiva, com conteúdo demonstrativo identificado, hierarquia visual forte e chamadas para ação acessíveis.",
+    challenges:
+      "Padronizar ícones, tornar menu e FAQ acessíveis e eliminar cortes e rolagem horizontal preservando a identidade visual.",
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap Icons", "Responsive Design"],
+    gradient: "linear-gradient(135deg,#111827,#1d4ed8 56%,#f59e0b)",
+    github: "",
+    demo: "https://coach-consultor.vercel.app/",
+  },
+  {
     id: "landing-premium",
     title: "Landing Page Premium",
     category: "web",
