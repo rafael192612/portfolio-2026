@@ -290,7 +290,7 @@ export const projects = [
     challenges: "Organizar o conteúdo, preservar a identidade visual e eliminar cortes ou rolagem horizontal em telas menores.",
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#075985,#0ea5e9 58%,#bae6fd)",
-    github: "https://github.com/rafael192612/consultorio-odontologico",
+    github: "",
     demo: "https://consultorio-odontologico-zeta-seven.vercel.app/",
   },
   {
@@ -305,7 +305,7 @@ export const projects = [
     challenges: "Organizar o conteúdo, preservar a identidade visual e eliminar cortes ou rolagem horizontal em telas menores.",
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#0f172a,#0f766e 58%,#99f6e4)",
-    github: "https://github.com/rafael192612/contabilidade",
+    github: "",
     demo: "https://contabilidade-tau-red.vercel.app/",
   },
   {
@@ -320,7 +320,7 @@ export const projects = [
     challenges: "Organizar o conteúdo, preservar a identidade visual e eliminar cortes ou rolagem horizontal em telas menores.",
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#172554,#2563eb 58%,#facc15)",
-    github: "https://github.com/rafael192612/escola-idiomas",
+    github: "",
     demo: "https://escola-idiomas-lyart.vercel.app/",
   },
   {
@@ -335,7 +335,7 @@ export const projects = [
     challenges: "Organizar o conteúdo, preservar a identidade visual e eliminar cortes ou rolagem horizontal em telas menores.",
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#111827,#b45309 58%,#fde68a)",
-    github: "https://github.com/rafael192612/imobiliaria",
+    github: "",
     demo: "https://imobiliaria-phi-jet.vercel.app/",
   },
   {
@@ -350,7 +350,7 @@ export const projects = [
     challenges: "Organizar o conteúdo, preservar a identidade visual e eliminar cortes ou rolagem horizontal em telas menores.",
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#1e1b4b,#7c3aed 58%,#f0abfc)",
-    github: "https://github.com/rafael192612/infoprodutor",
+    github: "",
     demo: "https://infoprodutor-weld.vercel.app/",
   },
   {
@@ -365,7 +365,7 @@ export const projects = [
     challenges: "Organizar o conteúdo, preservar a identidade visual e eliminar cortes ou rolagem horizontal em telas menores.",
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#4c0519,#db2777 58%,#fbcfe8)",
-    github: "https://github.com/rafael192612/loja-roupa",
+    github: "",
     demo: "https://loja-roupa-kappa.vercel.app/",
   },
   {
@@ -380,7 +380,7 @@ export const projects = [
     challenges: "Organizar o conteúdo, preservar a identidade visual e eliminar cortes ou rolagem horizontal em telas menores.",
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#111827,#dc2626 58%,#f59e0b)",
-    github: "https://github.com/rafael192612/oficina-mecanica",
+    github: "",
     demo: "https://oficina-mecanica-blue.vercel.app/",
   },
   {
@@ -395,7 +395,7 @@ export const projects = [
     challenges: "Organizar o conteúdo, preservar a identidade visual e eliminar cortes ou rolagem horizontal em telas menores.",
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#14532d,#22c55e 58%,#fde047)",
-    github: "https://github.com/rafael192612/petshop",
+    github: "",
     demo: "https://petshop-lake-seven.vercel.app/",
   },
   {
@@ -410,7 +410,7 @@ export const projects = [
     challenges: "Organizar o conteúdo, preservar a identidade visual e eliminar cortes ou rolagem horizontal em telas menores.",
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#3f0d0d,#dc2626 58%,#fbbf24)",
-    github: "https://github.com/rafael192612/restaurante",
+    github: "",
     demo: "https://restaurante-gold-one.vercel.app/",
   },
   {
@@ -425,7 +425,7 @@ export const projects = [
     challenges: "Organizar o conteúdo, preservar a identidade visual e eliminar cortes ou rolagem horizontal em telas menores.",
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#18181b,#a855f7 58%,#f5d0fe)",
-    github: "https://github.com/rafael192612/salao-beleza",
+    github: "",
     demo: "https://salao-beleza-inky.vercel.app/",
   },
 ];
