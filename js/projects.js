@@ -92,7 +92,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap Icons", "Responsive Design"],
     gradient: "linear-gradient(135deg,#111827,#1d4ed8 56%,#f59e0b)",
     github: "",
-    demo: "https://coach-consultor.vercel.app/",
+    demo: "https://coach-consultor-psi.vercel.app/",
   },
   {
     id: "landing-premium",
