@@ -291,7 +291,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#075985,#0ea5e9 58%,#bae6fd)",
     github: "https://github.com/rafael192612/consultorio-odontologico",
-    demo: "https://consultorio-odontologico.vercel.app/",
+    demo: "https://consultorio-odontologico-zeta-seven.vercel.app/",
   },
   {
     id: "contabilidade",
@@ -306,7 +306,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#0f172a,#0f766e 58%,#99f6e4)",
     github: "https://github.com/rafael192612/contabilidade",
-    demo: "https://contabilidade.vercel.app/",
+    demo: "https://contabilidade-tau-red.vercel.app/",
   },
   {
     id: "escola-idiomas",
@@ -321,7 +321,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#172554,#2563eb 58%,#facc15)",
     github: "https://github.com/rafael192612/escola-idiomas",
-    demo: "https://escola-idiomas.vercel.app/",
+    demo: "https://escola-idiomas-lyart.vercel.app/",
   },
   {
     id: "imobiliaria",
@@ -336,7 +336,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#111827,#b45309 58%,#fde68a)",
     github: "https://github.com/rafael192612/imobiliaria",
-    demo: "https://imobiliaria.vercel.app/",
+    demo: "https://imobiliaria-phi-jet.vercel.app/",
   },
   {
     id: "infoprodutor",
@@ -351,7 +351,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#1e1b4b,#7c3aed 58%,#f0abfc)",
     github: "https://github.com/rafael192612/infoprodutor",
-    demo: "https://infoprodutor.vercel.app/",
+    demo: "https://infoprodutor-weld.vercel.app/",
   },
   {
     id: "loja-roupa",
@@ -366,7 +366,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#4c0519,#db2777 58%,#fbcfe8)",
     github: "https://github.com/rafael192612/loja-roupa",
-    demo: "https://loja-roupa.vercel.app/",
+    demo: "https://loja-roupa-kappa.vercel.app/",
   },
   {
     id: "oficina-mecanica",
@@ -381,7 +381,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#111827,#dc2626 58%,#f59e0b)",
     github: "https://github.com/rafael192612/oficina-mecanica",
-    demo: "https://oficina-mecanica.vercel.app/",
+    demo: "https://oficina-mecanica-blue.vercel.app/",
   },
   {
     id: "petshop",
@@ -396,7 +396,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#14532d,#22c55e 58%,#fde047)",
     github: "https://github.com/rafael192612/petshop",
-    demo: "https://petshop.vercel.app/",
+    demo: "https://petshop-lake-seven.vercel.app/",
   },
   {
     id: "restaurante",
@@ -411,7 +411,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#3f0d0d,#dc2626 58%,#fbbf24)",
     github: "https://github.com/rafael192612/restaurante",
-    demo: "https://restaurante.vercel.app/",
+    demo: "https://restaurante-gold-one.vercel.app/",
   },
   {
     id: "salao-beleza",
@@ -426,6 +426,6 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     gradient: "linear-gradient(135deg,#18181b,#a855f7 58%,#f5d0fe)",
     github: "https://github.com/rafael192612/salao-beleza",
-    demo: "https://salao-beleza.vercel.app/",
+    demo: "https://salao-beleza-inky.vercel.app/",
   },
 ];
