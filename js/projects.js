@@ -277,7 +277,7 @@ export const projects = [
     gradient: "linear-gradient(135deg,#020b0b,#A60303 55%,#D96704)",
     github: "",
     demo: "",
-  },,
+  },
   {
     id: "consultorio-odontologico",
     title: "Odonto Sorriso",
