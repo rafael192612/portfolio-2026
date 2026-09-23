@@ -1,5 +1,20 @@
 export const projects = [
   {
+    id: "undawn-craft-tree",
+    title: "Undawn Craft Tree",
+    category: "data",
+    categoryLabel: "Ferramenta de jogo",
+    status: "Em desenvolvimento",
+    description: "Planejador local de materiais, receitas e rotas de coleta para Undawn.",
+    problem: "Cadeias de fabricação misturam materiais refinados, recursos e mapas, dificultando o planejamento durante o jogo.",
+    solution: "Árvore interativa que expande receitas, calcula matérias-primas e mantém o perfil de cada visitante somente no navegador.",
+    challenges: "Auditar receitas por versão, suportar cadeias profundas e manter dados pessoais fora de qualquer backend.",
+    technologies: ["HTML", "CSS", "JavaScript", "localStorage", "GitHub Pages"],
+    gradient: "linear-gradient(135deg,#0b1715,#2d6248 58%,#b5a24a)",
+    github: "https://github.com/rafael192612/portfolio-2026",
+    demo: "undawn/",
+  },
+  {
     id: "elite-fitness",
     title: "Elite Fitness",
     category: "web",
